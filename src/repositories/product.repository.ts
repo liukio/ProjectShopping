@@ -14,4 +14,4 @@ class ProductRepository {
     }
 }
 
-export default ProductRepository;
+export { ProductRepository };

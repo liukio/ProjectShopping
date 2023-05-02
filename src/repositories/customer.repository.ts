@@ -13,4 +13,4 @@ class CustomerRepository {
     }
 }
 
-export default CustomerRepository;
+export { CustomerRepository };
