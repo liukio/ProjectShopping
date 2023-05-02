@@ -1,6 +1,7 @@
 import { Customer } from '@prisma/client'
-import database from '../database'
+import { database } from '../database'
 
+//Faz CONEXÃO com o BANCO DE DADOS
 class CustomerRepository {
     public async create(name: string, email: string): Promise<Customer> {
         const customer = await database.customer.create({
